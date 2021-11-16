@@ -20,3 +20,8 @@ Lisätty muutetut ja uudet tiedostot ja katsottu mikä status. git commit komenn
 b) Kaikki kirjataan. Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.
 Tässä tehdään ensin muutoksia ja annetaan komento "git diff". Tämä komento näyttää mitä muutoksia on tehty. git log komento näyttää lokitieston mitä kaikkea ollaan muutettu/committeja. git blame komennolla saadaan selville tehtyjä muokkauksia ja kuka ne on tehnyt eli ketä voidaan syyttää.
 ![Image](file:///home/atte/Pictures/muutoksetDIFF.png)
+![blameKomento](file:///home/atte/Pictures/blame.png)
+
+c) Huppis! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
+
+Luodaan uusi tiedosto sekoilua.md
