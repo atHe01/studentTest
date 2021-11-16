@@ -24,4 +24,10 @@ Tässä tehdään ensin muutoksia ja annetaan komento "git diff". Tämä komento
 
 c) Huppis! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
-Luodaan uusi tiedosto sekoilua.md
+Luodaan uusi tiedosto sekoilua.md ja tuhotaan se. git status komennolla saatiin tieto, että luotu tiedosto odottaa committia, mutta sitä ei tehty vaan annettu komento "git reset --hard" jolloin HEAD palasi edelliseen oikeaan tekemääni muutokseen. 
+![RESEThard](file:///home/atte/Pictures/resetKova.png)
+
+ja "git status" komennolla näimme että se ei enään odota committia.
+
+d) Formula. Tee uusi salt-tila (formula, moduli, infraa koodina). (Eli uusi tiedosto esim. /srv/salt/terontila/init.sls). Voit tehdä ihan yksinkertaisen parin funktion (pkg, file...) tilan, tai edistyneemmin asentaa ja konfiguroida minkä vain uuden ohjelman: demonin, työpöytäohjelman tai komentokehotteesta toimivan ohjelman. Käytä tarvittaessa ‘find -printf “%T+ %p\n”|sort’ löytääksesi uudet asetustiedostot.
+
