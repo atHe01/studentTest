@@ -1,5 +1,5 @@
 # Palvelintenhallinta tehtävät viikko 3
-Tähän tulevat tehtävät
+Tähän tulevat tehtäviät.
 
 ## Tehtävät
 z) [Commonmark contributors: Markdown Reference](https://commonmark.org/help/)
@@ -17,3 +17,6 @@ Lisätty muutetut ja uudet tiedostot ja katsottu mikä status. git commit komenn
 ![Image](file:///home/atte/Pictures/Screenshot_2021-11-16_20-58-03.png)
 ![Image](file:///home/atte/Pictures/Screenshot_2021-11-16_20-58-25.png)
 
+b) Kaikki kirjataan. Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset.
+Tässä tehdään ensin muutoksia ja annetaan komento "git diff". Tämä komento näyttää mitä muutoksia on tehty. git log komento näyttää lokitieston mitä kaikkea ollaan muutettu/committeja. git blame komennolla saadaan selville tehtyjä muokkauksia ja kuka ne on tehnyt eli ketä voidaan syyttää.
+![Image](file:///home/atte/Pictures/muutoksetDIFF.png)
